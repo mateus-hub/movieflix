@@ -1,0 +1,118 @@
+.movie-container {
+  padding-top: 20px;
+  height: 1610px;
+  width: 320px;
+  background-color: #525252;
+}
+
+.movie-card {
+  margin-bottom: 30px;
+  width: 300px;
+  height: 322px;
+  margin-left: 10px;
+}
+
+.card-top-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-top-container img {
+  width: 300px;
+  height: 140px;
+}
+
+.card-bottom-container {
+  padding: 15px 20px 30px 20px;
+}
+
+.card-bottom-container h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-bottom-container h2 {
+  font-size: 16px;
+  color: #ffc700;
+}
+
+.card-bottom-container p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .movie-container {
+    width: 576px;
+    height: 992px;
+  }
+
+  .movie-card {
+    width: 250px;
+  }
+
+  .card-top-container img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-container {
+    width: 768px;
+    height: 1038px;
+  }
+
+  .movie-card {
+    width: 350px;
+  }
+
+  .card-top-container img {
+    width: 350px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .movie-container {
+    width: 992px;
+    height: 1221px;
+  }
+
+  .movie-card {
+    width: 290px;
+  }
+
+  .card-top-container img {
+    width: 289px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-container {
+    width: 1200px;
+  }
+
+  .movie-card {
+    width: 260px;
+  }
+
+  .card-top-container img {
+    width: 259px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .movie-container {
+    width: 100%;
+  }
+
+  .movie-card {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  .card-top-container img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,34 @@
+.btn-container {
+  border-radius: 3px;
+  height: 50px;
+  width: 265px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.btn {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #FFC700;
+  margin-top: 15px;
+}
+
+.btn h6 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .btn-container {
+    height: 65px;
+    width: 384px;
+    margin-left: 27px;;
+  }
+
+  .btn h6 {
+    font-size: 22px;
+  }
+}

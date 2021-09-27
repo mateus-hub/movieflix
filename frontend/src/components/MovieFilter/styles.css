@@ -1,0 +1,84 @@
+.movie-filter-container {
+  height: 60px;
+  width: 93%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.movie-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 20px;
+  background: #6c6c6c;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.movie-filter-genre-container {
+  flex: 1;
+  width: 260px;
+  padding: 0;
+  border: none;
+}
+
+.movie-filter-select__control input {
+  height: 30px;
+}
+
+.movie-filter-select__control {
+  background-color: #6c6c6c !important /*cor do input*/;
+}
+
+.movie-filter-select__menu {
+  background-color: #6c6c6c !important; /*cor de fundo do input quando clicado*/
+  color: #fff !important; /* cor das palavras do input quando clicado*/
+}
+
+.movie-filter-select__menu input:focus {
+  background: #fff !important;
+}
+
+.movie-filter-select__placeholder {
+  color: #fff !important; /* cor do placeholder quando não ter nenhum gênero selecionado*/
+}
+
+.movie-filter-select__single-value {
+  color: #fff !important/* cor do placeholder quando tiver gênero selecionado*/;
+}
+
+.movie-filter-select__indicator-separator {
+  display: none; /* separador entre o "x" e a seta de seleção do input*/
+}
+
+.movie-filter-select__dropdown-indicator {
+  color: #fff !important; /* cor da seta quando clicado */
+}
+
+.movie-filter-select__clear-indicator {
+  color: #fff !important; /* cor do x de limpar*/
+}
+
+@media (min-width: 576px) {
+  .movie-filter-container {
+    width: 95%;
+  }
+}
+
+@media (min-width: 762px) {
+  .movie-filter-container {
+    width: 97%;
+  }
+}
+
+@media (min-width: 992px) {
+  .movie-filter-container {
+    width: 98%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .movie-filter-container {
+    width: 98.5%;
+  }
+}

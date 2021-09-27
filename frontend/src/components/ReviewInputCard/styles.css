@@ -1,0 +1,151 @@
+.coment-input-container {
+  align-items: left;
+  font-size: small;
+  height: 157px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.form-container {
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 157px;
+  width: 300px;
+}
+
+.form-container input::placeholder {
+  font-size: 16px;
+}
+
+.form-container input {
+  padding: 10px;
+  height: 50px;
+  width: 280px;
+  margin-top: 10px;
+  align-items: left;
+}
+
+.form-container button {
+  display: grid;
+  height: 50px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #ffc700;
+  margin-top: 10px;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .coment-input-container {
+    padding: 2px;
+    width: 550px;
+  }
+
+  .form-container {
+    width: 550px;
+  }
+
+  .form-container input {
+    width: 505px;
+    margin-left: 10px;
+  }
+
+  .form-container button {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .coment-input-container {
+    width: 700px;
+    margin-left: 20px;
+  }
+
+  .form-container {
+    width: 700px;
+  }
+
+  .form-container input {
+    width: 625px;
+    margin-left: 25px;
+  }
+
+  .form-container button {
+    margin-left: 190px;
+  }
+}
+
+@media (min-width: 992px) {
+  .coment-input-container {
+    width: 912px;
+    height: 200px;
+    margin-left: 25px;
+  }
+
+  .form-container {
+    width: 925px;
+  }
+
+  .form-container input {
+    width: 832px;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .form-container button {
+    width: 400px;
+    height: 50px;
+    margin-left: 240px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .coment-input-container {
+    width: 1123px;
+    margin-left: 25px;
+  }
+
+  .form-container {
+    width: 1130px;
+  }
+
+  .form-container input {
+    width: 1050px;
+    margin-left: 25px;
+    font-size: 18px;
+  }
+
+  .form-container button {
+    width: 334px;
+    height: 50px;
+    margin-left: 370px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .coment-input-container {
+    width: 97%;
+    margin-left: 20px;
+  }
+
+  .form-container {
+    width: 99%;
+  }
+
+  .form-container input {
+    width: 97.1%;
+  }
+
+  .form-container button {
+    width: 30%;
+    height: 50px;
+    margin-left: 480px;
+  }
+}
